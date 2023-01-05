@@ -67,10 +67,14 @@ a {
 }
 
 p {
-    margin: 10px 0px;
-    width: 22vw;
     font-size: 16px;
     color: #acaeb3;
+}
+
+#textHeader {
+    margin: 10px 0px;
+    width: 22vw;
+    text-align: left;
 }
 
 button {
@@ -89,4 +93,60 @@ button {
 #imagem {
     width: 500px;
     height: 280px;
+}
+
+main {
+    height: 400px;
+    background-color: #F9FAF8;
+
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+
+    gap: 20px ;
+}
+
+.textMain {
+    width: 50vw;
+    height: 10vh;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+}
+
+.card {
+    width: 150px;
+    height: 250px;
+
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.caixa {
+    width: 150px;
+    height: 150px;
+
+    border: 3px solid #3882F6;
+    border-radius: 15px;
+}
+
+#paragrafoMain {
+    text-align: center;
 }
