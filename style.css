@@ -90,6 +90,8 @@ button {
     color: #F9FAF8;
 
     cursor: pointer;
+
+    font-weight: 900;
 }
 
 #imagem {
@@ -151,4 +153,83 @@ h2 {
 
 #paragrafoMain {
     text-align: center;
+}
+
+section {
+    width: 100vw;
+    height: 480px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #acaeb3;
+}
+
+.sec {
+    width: 45vw;
+    height: 160px;
+    box-sizing: border-box;
+}
+
+#pala {
+    font-size: 35px;
+    color: #1f2937b4;
+}
+
+#segundo {
+    text-align: end;
+    font-size: 15px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+#final {
+    width: 100vw;
+    height: 480px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F9FAF8;
+}
+
+#elemento {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    width: 50vw;
+    height: 150px;
+
+    border-radius: 3px;
+    background-color: #3882F6;
+}
+
+#titulo {
+    color: #F9FAF8;
+    font-weight: 900;
+    font-size: 18px;
+}
+
+#pp {
+    color: #F9FAF8;
+    font-size: 15px;
+}
+
+#btn {
+    border: 2px solid #F9FAF8;
+    border-radius: 10px;
+}
+
+footer {
+    width: 100vw;
+    height: 100px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #1F2937;
+    color: #F9FAF8;
 }
